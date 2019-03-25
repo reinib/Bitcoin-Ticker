@@ -23,7 +23,7 @@ app.post("/", function(req, res){
     method: "GET",
     qs: {
       from: crypto,
-      to:fiat,
+      to: fiat,
       amount: amount
     }
   };
